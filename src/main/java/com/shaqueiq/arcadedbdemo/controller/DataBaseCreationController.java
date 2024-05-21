@@ -7,8 +7,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.shaqueiq.arcadedbdemo.model.Result;
 
+import java.util.concurrent.atomic.AtomicLong;
+
 @RestController
 public class DataBaseCreationController {
+
+	private static final String template = "Hello, %s!";
+	private final AtomicLong counter = new AtomicLong();
 	
 	@Autowired
 	private GraphDBCreatorService graphDbCreatorService;

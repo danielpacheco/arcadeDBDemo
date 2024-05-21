@@ -1,5 +1,6 @@
 package com.shaqueiq.arcadedbdemo.model;
 
+import com.arcadedb.graph.Vertex;
 import com.shaqueiq.arcadedbdemo.cqrs.AffiliateCommand;
 import com.shaqueiq.arcadedbdemo.cqrs.AffiliateEvent;
 import org.axonframework.commandhandling.CommandHandler;
@@ -50,6 +51,10 @@ public class Hospital implements Constants {
     @CommandHandler
     public Hospital(AffiliateCommand cmd) {
         apply(new AffiliateEvent(cmd.getId(), cmd.getPhysician()));
+    }
+
+    public static Hospital fromVertex(Vertex vertex) {
+        return new Hospital(vertex.getString(NAME));
     }
 
     @EventSourcingHandler
