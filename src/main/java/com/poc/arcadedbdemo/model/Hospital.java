@@ -1,8 +1,8 @@
-package com.shaqueiq.arcadedbdemo.model;
+package com.poc.arcadedbdemo.model;
 
 import com.arcadedb.graph.Vertex;
-import com.shaqueiq.arcadedbdemo.cqrs.AffiliateCommand;
-import com.shaqueiq.arcadedbdemo.cqrs.AffiliateEvent;
+import com.poc.arcadedbdemo.cqrs.AffiliateCommand;
+import com.poc.arcadedbdemo.cqrs.AffiliateEvent;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
@@ -61,12 +61,5 @@ public class Hospital implements Constants {
     public void on(AffiliateEvent evt) {
         id = evt.getId();
     }
-
-//    @EventSourcingHandler
-//    private void handleCreatedEvent(LibraryCreatedEvent event) {
-//        libraryId = event.getLibraryId();
-//        name = event.getName();
-//        isbnBooks = new ArrayList<>();
-//    }
 
 }

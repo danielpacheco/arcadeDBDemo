@@ -1,9 +1,9 @@
-package com.shaqueiq.arcadedbdemo.repository;
+package com.poc.arcadedbdemo.repository;
 
 import com.arcadedb.graph.Vertex;
 import com.arcadedb.query.sql.executor.ResultSet;
 import com.arcadedb.remote.RemoteDatabase;
-import com.shaqueiq.arcadedbdemo.service.ArcadeDBService;
+import com.poc.arcadedbdemo.service.ArcadeDBService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

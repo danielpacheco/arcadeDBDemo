@@ -1,10 +1,10 @@
-package com.shaqueiq.arcadedbdemo.controller;
+package com.poc.arcadedbdemo.controller;
 
 import com.arcadedb.graph.Vertex;
-import com.shaqueiq.arcadedbdemo.cqrs.GetHospitalQuery;
-import com.shaqueiq.arcadedbdemo.model.Hospital;
-import com.shaqueiq.arcadedbdemo.repository.DataQueryRepository;
-import com.shaqueiq.arcadedbdemo.service.HospitalAgreggateService;
+import com.poc.arcadedbdemo.cqrs.GetHospitalQuery;
+import com.poc.arcadedbdemo.model.Hospital;
+import com.poc.arcadedbdemo.repository.DataQueryRepository;
+import com.poc.arcadedbdemo.service.HospitalAgreggateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

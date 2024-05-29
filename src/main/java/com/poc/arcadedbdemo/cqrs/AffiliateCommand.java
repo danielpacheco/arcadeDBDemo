@@ -1,6 +1,6 @@
-package com.shaqueiq.arcadedbdemo.cqrs;
+package com.poc.arcadedbdemo.cqrs;
 
-import com.shaqueiq.arcadedbdemo.model.Physician;
+import com.poc.arcadedbdemo.model.Physician;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 public class AffiliateCommand {

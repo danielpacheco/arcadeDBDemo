@@ -1,4 +1,4 @@
-package com.shaqueiq.arcadedbdemo.service;
+package com.poc.arcadedbdemo.service;
 
 import com.arcadedb.database.Database;
 import com.arcadedb.database.DatabaseFactory;

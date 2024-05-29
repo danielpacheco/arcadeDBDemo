@@ -1,4 +1,4 @@
-package com.shaqueiq.arcadedbdemo.model;
+package com.poc.arcadedbdemo.model;
 
 import java.util.List;
 

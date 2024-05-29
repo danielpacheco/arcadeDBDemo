@@ -1,4 +1,4 @@
-package com.shaqueiq.arcadedbdemo;
+package com.poc.arcadedbdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

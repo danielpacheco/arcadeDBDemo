@@ -1,4 +1,4 @@
-package com.shaqueiq.arcadedbdemo.model;
+package com.poc.arcadedbdemo.model;
 
 public interface Constants {
     String NAME = "name";

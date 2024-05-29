@@ -1,10 +1,10 @@
-package com.shaqueiq.arcadedbdemo.service;
+package com.poc.arcadedbdemo.service;
 
 import com.arcadedb.graph.Vertex;
-import com.shaqueiq.arcadedbdemo.cqrs.GetHospitalQuery;
-import com.shaqueiq.arcadedbdemo.model.Constants;
-import com.shaqueiq.arcadedbdemo.model.Hospital;
-import com.shaqueiq.arcadedbdemo.repository.DataQueryRepository;
+import com.poc.arcadedbdemo.cqrs.GetHospitalQuery;
+import com.poc.arcadedbdemo.model.Constants;
+import com.poc.arcadedbdemo.model.Hospital;
+import com.poc.arcadedbdemo.repository.DataQueryRepository;
 import org.axonframework.messaging.ExecutionException;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.beans.factory.annotation.Autowired;

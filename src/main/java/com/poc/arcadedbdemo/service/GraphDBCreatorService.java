@@ -1,4 +1,4 @@
-package com.shaqueiq.arcadedbdemo.service;
+package com.poc.arcadedbdemo.service;
 
 import com.arcadedb.remote.RemoteServer;
 import org.slf4j.Logger;
